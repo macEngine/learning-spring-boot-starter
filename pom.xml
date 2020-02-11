@@ -12,5 +12,17 @@
     <modules>
         <module>parent-boot-2</module>
         <module>boot-starter-mail</module>
+        <module>boot-starter-jpa</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+    </dependencies>
+    <properties>
+        <lombok.version>1.6.18</lombok.version>
+    </properties>
+
 </project>
